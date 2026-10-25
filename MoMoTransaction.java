@@ -59,6 +59,7 @@ public class MoMoTransaction {
                 return 0.00;
         }
     }
+    // calculate fee
 
     public static double calculateFee(String type, double amount, double discountRate) {
         double standardFee = calculateFee(type, amount);
